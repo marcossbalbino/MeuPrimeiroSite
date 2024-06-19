@@ -8,9 +8,8 @@ header{
     padding: 3%;
 }
 /* Classe Atribuída para a div que vai receber o logo tipo*/
-.caixa
 .logo{
-    color: ;
+    color: 
 }
 nav{
     
@@ -28,9 +27,24 @@ footer{
     background-color: 
     padding: 3%;
 }
-.cabecalho{
-    padding: 3%;
-}
+.cabecalho {
+    background: gold;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 12.5PX;
+    }
+    .cabecalho .logo img {
+    width: 120px;
+    height: 120px;
+    }
+    .cabecalho .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .cabecalho .logo p {
+    margin: 0 10px;
+    }
 .rodape{
     padding: 3%;
     color: floralwhite;
@@ -60,4 +74,23 @@ h1{
 }
 h2{
     font-size: 1.5em;
+}
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+}
+figure img{
+    display: block;
+    margin: 0 auto;
+    max-width:100% ;
+    height: auto;
+}
+figcaption{
+    margin: 1.0em;
+    text-align: center;
+    color: gold;
 }
