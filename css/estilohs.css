@@ -1,13 +1,15 @@
 body{
     background-color: rgb(191,191,191);
     font-family: "Rubik", sans-serif;
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/Los-Angeles-Lakers-logo-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     color: aliceblue; 
     padding: 3%;
 }
-/* Classe Atribuída para a div que vai receber o logo tipo*/
+
 .logo{
     
 }

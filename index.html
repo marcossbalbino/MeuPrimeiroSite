@@ -14,11 +14,36 @@
 <body>
     <header class="cabecalho">
     <div class="logo">
-       <p>LOGOTIPO</p>
+        <link rel="stylesheet" href="img/download.png">
     </div>
-    <nav id="menu">
-        <p>Aqui vai o Menu</p>
-    </nav>
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="história.html">História</a>
+        <a href="#">Conquistas</a>
+        <a href="#">Estádio</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            &#9776;
+        </a>
+    </div>
+    
+    <div id="menuResponsive" class="menu-responsive">
+        <a href="#" class="active">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var menuResponsive = document.getElementById("menuResponsive");
+            if (menuResponsive.style.display === "block") {
+                menuResponsive.style.display = "none";
+            } else {
+                menuResponsive.style.display = "block";
+            }
+        }
+    </script>
+    
 </header>
      <main>
         <h1 class="titulos"> Los Angeles Lakers</h1>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilohs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href= "img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">História</a>
+        <a href="#">Conquistas</a>
+        <a href="#">Estádio</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            &#9776;
+        </a>
+    </div>
+    
+    <div id="menuResponsive" class="menu-responsive">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">História</a>
+        <a href="#">Conquistas</a>
+        <a href="#">Estádio</a>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var menuResponsive = document.getElementById("menuResponsive");
+            if (menuResponsive.style.display === "block") {
+                menuResponsive.style.display = "none";
+            } else {
+                menuResponsive.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
